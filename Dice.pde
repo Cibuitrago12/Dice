@@ -23,7 +23,7 @@ void draw()
     dieRowThree.show();
     sums += dieRowThree.numDots;
   }
-  System.out.println(sums);
+  
   textSize(16);
   fill(255);
   text("Total dots: " + sums, 200, 475);
