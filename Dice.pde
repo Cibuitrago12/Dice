@@ -56,42 +56,42 @@ class Die //models one single dice cube
     rect(dieX, dieY, 95, 95, 17);
     if(numDots == 1){
       fill(0);
-      circle(dieX + 48, dieY + 48, 15);
+      ellipse(dieX + 48, dieY + 48, 15, 15);
     } 
     else if (numDots == 2){
        fill(0);
-       circle(dieX + 25, dieY + 25, 15);
-       circle(dieX + 70, dieY + 70, 15);
+       ellipse(dieX + 25, dieY + 25, 15, 15);
+       ellipse(dieX + 70, dieY + 70, 15, 15);
     }
     else if (numDots == 3){
        fill(0);
-       circle(dieX + 25, dieY + 25, 15);
-       circle(dieX + 70, dieY + 70, 15);
-       circle(dieX + 48, dieY + 48, 15);
+       ellipse(dieX + 25, dieY + 25, 15, 15 );
+       ellipse(dieX + 70, dieY + 70, 15, 15);
+       ellipse(dieX + 48, dieY + 48, 15, 15);
     }
     else if (numDots == 4){
        fill(0);
-       circle(dieX + 25, dieY + 25, 15);
-       circle(dieX + 70, dieY + 70, 15);
-       circle(dieX + 25, dieY + 70, 15);
-       circle(dieX + 70, dieY + 25, 15);
+       ellipse(dieX + 25, dieY + 25, 15, 15);
+       ellipse(dieX + 70, dieY + 70, 15, 15);
+       ellipse(dieX + 25, dieY + 70, 15, 15);
+       ellipse(dieX + 70, dieY + 25, 15, 15);
     }
       else if (numDots == 5){
        fill(0);
-       circle(dieX + 25, dieY + 25, 15);
-       circle(dieX + 70, dieY + 70, 15);
-       circle(dieX + 25, dieY + 70, 15);
-       circle(dieX + 70, dieY + 25, 15);
-       circle(dieX + 48, dieY + 48, 15);
+       ellipse(dieX + 25, dieY + 25, 15, 15);
+       ellipse(dieX + 70, dieY + 70, 15, 15);
+       ellipse(dieX + 25, dieY + 70, 15, 15);
+       ellipse(dieX + 70, dieY + 25, 15, 15);
+       ellipse(dieX + 48, dieY + 48, 15, 15);
     }
     else if (numDots == 6){
        fill(0);
-       circle(dieX + 25, dieY + 25, 15);
-       circle(dieX + 70, dieY + 70, 15);
-       circle(dieX + 25, dieY + 70, 15);
-       circle(dieX + 70, dieY + 25, 15);
-       circle(dieX + 25, dieY + 48, 15);
-       circle(dieX + 70, dieY + 48, 15);
+       ellipse(dieX + 25, dieY + 25, 15, 15);
+       ellipse(dieX + 70, dieY + 70, 15, 15);
+       ellipse(dieX + 25, dieY + 70, 15, 15);
+       ellipse(dieX + 70, dieY + 25, 15, 15);
+       ellipse(dieX + 25, dieY + 48, 15, 15);
+       ellipse(dieX + 70, dieY + 48, 15, 15);
     }
   }
 }
